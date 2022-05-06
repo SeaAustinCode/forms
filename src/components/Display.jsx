@@ -4,10 +4,11 @@ const Display = (props) => {
     // console.log(props)
   return (
     <div>
-        <li>{props.username}</li>
-        <li>{props.email}</li>
-        <li>{props.password}</li>
-        <li>{props.confirmpassword}</li>
+        <li>First Name: {props.firstname}</li>
+        <li>Last Name: {props.lastname}</li>
+        <li>Email: {props.email}</li>
+        <li>Password: {props.password}</li>
+        <li>Confirm Password: {props.confirmpassword}</li>
     </div>
   )
 }
